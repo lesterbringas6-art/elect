@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useAuth } from './AuthContext';
 
 const DataContext = createContext(undefined);
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://elect-omega.vercel.app';
 
 export const DataProvider = ({ children }) => {
   const { token } = useAuth();
