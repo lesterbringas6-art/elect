@@ -11,6 +11,8 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const JWT_SECRET = process.env.JWT_SECRET || 'your_secret_key';
 
+app.use(express.json());
+
 // Middleware
 const allowedOrigins = [
   'http://localhost:5173',
