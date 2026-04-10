@@ -12,7 +12,7 @@ const LEVEL_DATA = [
   { id: 5, title: 'Barre Chords', description: 'Master the challenging barre chord shapes', chordNames: ['F', 'Bm', 'B', 'F#m'] },
   { id: 6, title: 'Power & Suspended', description: 'Learn power chords and suspended voicings', chordNames: ['G5', 'A5', 'Dsus4', 'Asus2'] },
   { id: 7, title: 'Seventh Chords', description: 'Add color with major 7th and dominant 7th chords', chordNames: ['Cmaj7', 'G7', 'Am7', 'Fmaj7', 'E7'] },
-  { id: 8, title: 'Jazz Voicings', description: 'Explore diminished, 9th, and 13th chords', chordNames: ['Bm7b5', 'C9', 'Bb13'] },
+  { id: 8, title: 'Jazz Voicings', description: 'Explore diminished, 9th, and 13th chords', chordNames: ['Bm7', 'C9'] },
   { id: 9, title: 'Expert Chords', description: 'Master slash chords, altered dominants, and extensions', chordNames: ['D/F#', 'E7#9', 'G13b9', 'F#m11', 'Amaj9', 'Cdim7'] },
 ];
 
